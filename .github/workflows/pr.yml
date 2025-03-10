@@ -28,5 +28,5 @@ jobs:
         with:
           title: "Auto PR: Änderungen auf ${{ github.ref_name }}"
           body: "Ein direkter Push wurde erkannt und rückgängig gemacht. Bitte überprüfe die Änderungen und merge sie über diesen Pull Request."
-          base: main
+          base: master
           branch: ${{ github.ref_name }}
