@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7b2a8c1d62d6446a846f6d11ff21170e" Name="Diagram1">
+        <EntityTypeShape EntityType="oberstufe_db1Model.arbeitet" Width="1.5" PointX="8.25" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="oberstufe_db1Model.art" Width="1.5" PointX="9" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="oberstufe_db1Model.bezahlungsart" Width="1.5" PointX="11.25" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="oberstufe_db1Model.dienstleistung" Width="1.5" PointX="14.25" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="oberstufe_db1Model.kunde" Width="1.5" PointX="3" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="oberstufe_db1Model.mitarbeiter" Width="1.5" PointX="6" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="oberstufe_db1Model.ort" Width="1.5" PointX="0.75" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="oberstufe_db1Model.priorität" Width="1.5" PointX="9" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="oberstufe_db1Model.rechnung" Width="1.5" PointX="13.5" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="oberstufe_db1Model.rechtegruppe" Width="1.5" PointX="3.75" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="oberstufe_db1Model.session" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="oberstufe_db1Model.status" Width="1.5" PointX="9" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="oberstufe_db1Model.ticket" Width="1.5" PointX="11.25" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="oberstufe_db1Model.abgeleitet" Width="1.5" PointX="16.5" PointY="6.375" IsExpanded="true" />
+        <AssociationConnector Association="oberstufe_db1Model.arbeitet_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="oberstufe_db1Model.fk_kunde" ManuallyRouted="false" />
+        <AssociationConnector Association="oberstufe_db1Model.fk_mitarbeiter" ManuallyRouted="false" />
+        <AssociationConnector Association="oberstufe_db1Model.ticket_fk_3" ManuallyRouted="false" />
+        <AssociationConnector Association="oberstufe_db1Model.rechnung_fk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="oberstufe_db1Model.abgeleitet_fk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="oberstufe_db1Model.abgeleitet_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="oberstufe_db1Model.rechnung_fk_2" ManuallyRouted="false" />
+        <AssociationConnector Association="oberstufe_db1Model.ticket_fk_5" ManuallyRouted="false" />
+        <AssociationConnector Association="oberstufe_db1Model.mitarbeiter_fk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="oberstufe_db1Model.mitarbeiter_fk_2" ManuallyRouted="false" />
+        <AssociationConnector Association="oberstufe_db1Model.ticket_fk_4" ManuallyRouted="false" />
+        <AssociationConnector Association="oberstufe_db1Model.ticket_fk_2" ManuallyRouted="false" />
+        <AssociationConnector Association="oberstufe_db1Model.rechnung_fk_3" ManuallyRouted="false" />
+        <AssociationConnector Association="oberstufe_db1Model.ticket_fk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="oberstufe_db1Model.abgeleitet_fk_2" ManuallyRouted="false" />
+        <AssociationConnector Association="oberstufe_db1Model.bearbeitet" ManuallyRouted="false" />
+        <AssociationConnector Association="oberstufe_db1Model.residiert" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
